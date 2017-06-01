@@ -9,7 +9,7 @@
 ### -m
   give the element a mask
   
-  ### -R
-    make the color of the mask random
+### -R
+make the color of the mask random
  
 
