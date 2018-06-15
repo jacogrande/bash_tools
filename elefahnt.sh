@@ -1,12 +1,12 @@
 INPUT=$1;
 ADDED="";
-printf "" > /Users/annbrilz/Desktop/programs/tools/elefahnt.txt;
+printf "" > $HOME/elefahnt.txt;
 grep -o . <<< $INPUT | while read c
 do
-	echo "+" >> /Users/annbrilz/Desktop/programs/tools/elefahnt.txt;
+	echo "+" >> $HOME/elefahnt.txt;
 done
 
-COUNT=$(uniq -c /Users/annbrilz/Desktop/programs/tools/elefahnt.txt);
+COUNT=$(uniq -c $HOME/elefahnt.txt);
 COUNT=$(echo $COUNT | tr -d " " )
 LENGTH="${#COUNT}"
 LENGTH=$((LENGTH-1))
