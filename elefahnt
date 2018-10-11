@@ -1,12 +1,18 @@
 INPUT=$1;
 ADDED="";
-printf "" > /Users/annbrilz/Desktop/programs/tools/elefahnt.txt;
+
+DIR=$(pwd);
+DIR="$DIR/elefahnt.txt";
+
+printf "" > $DIR;
+
+
 grep -o . <<< $INPUT | while read c
 do
-	echo "+" >> /Users/annbrilz/Desktop/programs/tools/elefahnt.txt;
+	echo "+" >> $DIR
 done
 
-COUNT=$(uniq -c /Users/annbrilz/Desktop/programs/tools/elefahnt.txt);
+COUNT=$(uniq -c $DIR);
 COUNT=$(echo $COUNT | tr -d " " )
 LENGTH="${#COUNT}"
 LENGTH=$((LENGTH-1))
@@ -92,4 +98,3 @@ printf "${ELEFAHNT//n/\n$ADDED}"
 echo "";
 say -v Daniel $INPUT
 echo "";
-
