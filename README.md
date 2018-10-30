@@ -23,5 +23,5 @@
 ### note: reading files
   To get the hash of a file
   ```
-  ./hash "$(cat **filename**)" [-v]
+  ./hash "$(cat *filename*)" [-v]
   ```
