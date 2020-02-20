@@ -1,16 +1,6 @@
 # bash_tools
   A janky library of homemade bash tools.
   
-## Elefahnt
-  Elefahnt is a script that prints and speaks the users input
-  ```
-  ./elefahnt "testing..." [-mR]
-  ```
-### -m
-  give the element a mask
-
-### -R
-  make the color of the mask random
 
 ## Hashbrowns
   Hashbrowns is a script that will take an input string and run it through a series of logic operations and compression functions, creating a unique hash.
@@ -31,3 +21,13 @@
   ```
   ./hashbrowns "$(cat filename)" [-v]
   ```
+## Elefahnt
+  Elefahnt is a script that prints and speaks the users input
+  ```
+  ./elefahnt "testing..." [-mR]
+  ```
+### -m
+  give the element a mask
+
+### -R
+  make the color of the mask random
