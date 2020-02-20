@@ -24,10 +24,5 @@
 ## Elefahnt
   Elefahnt is a script that prints and speaks the users input
   ```
-  ./elefahnt "testing..." [-mR]
+  ./elefahnt "testing..." 
   ```
-### -m
-  give the element a mask
-
-### -R
-  make the color of the mask random
