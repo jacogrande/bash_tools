@@ -13,7 +13,13 @@
   make the color of the mask random
 
 ## Hashbrowns
-  Hashbrowns is a script that will give you a hash of the user input
+  Hashbrowns is a script that will take an input string and run it through a series of logic operations and compression functions, creating a unique hash.
+  
+  Before running the program, you'll have to give it the appropriate permissions with
+  ```
+  chmod 777 hash
+  ```
+  To run the script,
   ```
   ./hashbrowns "testing..." [-v]
   ```
