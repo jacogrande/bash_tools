@@ -17,7 +17,7 @@
   
   Before running the program, you'll have to give it the appropriate permissions with
   ```
-  chmod 777 hash
+  chmod 777 hashbrowns
   ```
   To run the script,
   ```
