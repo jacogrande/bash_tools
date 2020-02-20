@@ -5,10 +5,6 @@
 ## Hashbrowns
   Hashbrowns is a script that will take an input string and run it through a series of logic operations and compression functions, creating a unique hash.
   
-  Before running the program, you'll have to give it the appropriate permissions with
-  ```
-  chmod 777 hashbrowns
-  ```
   To run the script,
   ```
   ./hashbrowns "testing..." [-v]
