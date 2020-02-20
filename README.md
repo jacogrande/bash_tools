@@ -1,6 +1,6 @@
-# tools
-  A library of bash tools
-
+# bash_tools
+  A janky library of homemade bash tools.
+  
 ## Elefahnt
   Elefahnt is a script that prints and speaks the users input
   ```
